@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动电话自动录音" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭电话自动录音" />
+
+    <Button
+        android:id="@+id/btnBrowseVoiceFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="浏览录音文件" />
+			
+</LinearLayout>

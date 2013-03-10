@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/check_all"
+        android:orderInCategory="100"
+        android:title="全选"/>
+    <item
+        android:id="@+id/uncheck_all"
+        android:orderInCategory="100"
+        android:title="取消全选"/>
+    <item
+        android:id="@+id/check_inverse"
+        android:orderInCategory="100"
+        android:title="反选"/>
+    <item
+        android:id="@+id/del_files"
+        android:orderInCategory="100"
+        android:title="删除"/>
+    <item
+        android:id="@+id/cancel_edit"
+        android:orderInCategory="100"
+        android:title="取消编辑"/>
+
+</menu>

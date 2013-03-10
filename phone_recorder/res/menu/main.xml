@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:orderInCategory="100"
+        android:title="软件介绍">
+        <menu>
+            <item
+                android:id="@+id/function_info"
+                android:orderInCategory="100"
+                android:title="功能简介"/>
+            <item
+                android:id="@+id/update_info"
+                android:orderInCategory="100"
+                android:title="更新说明"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/author_info"
+        android:orderInCategory="100"
+        android:title="关于作者"/>
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="使用反馈"/>
+
+</menu>

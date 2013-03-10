@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">通话自动录音</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">通话自动录音</string>
+    <string name="function_info">        通话自动录音，包括去电/来电接通录音。\n
+        启动服务之后，当电话接通之后开始录音，\n
+        录音文件保存在存储卡上My Record文件夹内。\n
+        同时可以用本软件进行查看录音文件，播放，删除等操作。\n
+        单击录音文件可以播放\n
+        长按录音文件可以单个删除\n
+        注意：本应用暂时还未添加开机自起功能\n
+        所以请手动开启软件。
+                  版本：1.5</string>
+    <string name="update_info">        增加录音文件列表\n
+        增加录音文件的播放控制，带有播放进度条\n
+        可以拖动到指定位置开始播放\n
+        增加录音文件的查看，选择删除。\n
+        修复因机型和ROM不同造成部分手机不能\n
+        录音的Bug，但是却无法保证去电只有在\n
+        接通的时候才开始录音，即只要拨打就录音。\n
+        增加应用介绍，更新简介，作者简介。\n
+        增加用户使用情况反馈方式菜单。</string>
+    <string name="author_info">       常用网络代号：sdvdxl\n
+       百度一下 “sdvdxl” 你就知道</string>
+    <string name="feedback_info">        有神马建议/意见可以联系我\n
+      Email:dunano@163.com (推荐)\n
+      QQ:914978669</string>
+    <string name="sdcard_info">        SD Card 不存在或者不可写\n
+        请检查后再开启服务</string>
+
+</resources>
